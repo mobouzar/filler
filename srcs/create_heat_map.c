@@ -6,7 +6,7 @@
 /*   By: mobouzar <mobouzar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/23 22:14:42 by mobouzar          #+#    #+#             */
-/*   Updated: 2019/10/18 20:47:24 by mobouzar         ###   ########.fr       */
+/*   Updated: 2019/11/05 23:27:56 by mobouzar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,9 +21,13 @@ int		create_heat_map(t_filler *filler)
 	x = filler->map_x;
 	if (!(filler->h_map = (int **)malloc(sizeof(int *) * x)))
 		return (0);
-	while (x--)
-		if (!(filler->h_map[i++] = (int *)malloc(sizeof(int) * filler->map_y)))
+	i = 0;
+	while (i < filler->map_y)
+	{
+		if (!(filler->h_map[i] = (int *)malloc(sizeof(int) * filler->map_y)))
 			return (0);
+		i++;
+	}
 	return (1);
 }
 

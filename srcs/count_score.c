@@ -6,7 +6,7 @@
 /*   By: mobouzar <mobouzar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/25 01:03:33 by mobouzar          #+#    #+#             */
-/*   Updated: 2019/10/20 00:13:48 by mobouzar         ###   ########.fr       */
+/*   Updated: 2019/11/06 00:14:16 by mobouzar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,14 +15,11 @@
 int		count_score(t_filler *filler, int i, int j)
 {
 	int count;
-	int oldj;
 	int x;
 	int y;
 
-	count = 0;
-	oldj = j;
 	x = 0;
-	y = 0;
+	count = 0;
 	while (x < filler->p_x)
 	{
 		y = 0;

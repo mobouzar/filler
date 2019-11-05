@@ -6,7 +6,7 @@
 /*   By: mobouzar <mobouzar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/24 14:41:30 by mobouzar          #+#    #+#             */
-/*   Updated: 2019/10/19 22:47:41 by mobouzar         ###   ########.fr       */
+/*   Updated: 2019/11/05 21:12:40 by mobouzar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,26 +16,18 @@ void	fill_hmap(t_filler *filler, int x, int y, int i)
 {
 	if (x > 0 && filler->h_map[x - 1][y] == 0)
 		filler->h_map[x - 1][y] = i + 1;
-
 	if (y + 1 < filler->map_y && filler->h_map[x][y + 1] == 0)
 		filler->h_map[x][y + 1] = i + 1;
-
 	if (x + 1 < filler->map_x && filler->h_map[x + 1][y] == 0)
 		filler->h_map[x + 1][y] = i + 1;
-
 	if (y > 0 && filler->h_map[x][y - 1] == 0)
 		filler->h_map[x][y - 1] = i + 1;
-
 	if (x > 0 && y > 0 && filler->h_map[x - 1][y - 1] == 0)
 		filler->h_map[x - 1][y - 1] = i + 1;
-
-	if (x + 1 < filler->map_x && y + 1 < filler->map_y
-	&& filler->h_map[x + 1][y + 1] == 0)
+	if (x + 1 < filler->map_x && y + 1 < filler->map_y && filler->h_map[x + 1][y + 1] == 0)
 		filler->h_map[x + 1][y + 1] = i + 1;
-
 	if (x + 1 < filler->map_x && y > 0 && filler->h_map[x + 1][y - 1] == 0)
 		filler->h_map[x + 1][y - 1] = i + 1;
-		
 	if (x > 0 && y + 1 < filler->map_y && filler->h_map[x - 1][y + 1] == 0)
 		filler->h_map[x - 1][y + 1] = i + 1;
 }
