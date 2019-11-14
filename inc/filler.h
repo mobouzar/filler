@@ -6,7 +6,7 @@
 /*   By: mobouzar <mobouzar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/19 20:29:37 by mobouzar          #+#    #+#             */
-/*   Updated: 2019/10/24 22:12:43 by mobouzar         ###   ########.fr       */
+/*   Updated: 2019/11/07 23:06:15 by mobouzar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,12 +38,10 @@ typedef struct	s_filler
 }				t_filler;
 
 int				fill_filler(t_filler *filler);
-
 int				is_placeable(t_filler *filler, int x, int y);
 int				get_position(t_filler *filler);
-
 int				who_is_me(t_filler *filler);
-void			fill_heat_map(t_filler *filler);
+void			create_heatmap(t_filler *filler);
 void			trap_enemy(t_filler *filler);
 int				exception_case(t_filler *filler);
 int				count_score(t_filler *filler, int i, int j);

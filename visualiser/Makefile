@@ -1,4 +1,4 @@
-FLAGS = -Wall -Werror -Wextra
+FLAGS = #-Wall -Werror -Wextra
 NAME = visu
 OBJECTS = main.o read_infos.o menu00.o menu01.o menu02.o \
 			print_map00.o print_map01.o print_map02.o menu.o

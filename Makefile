@@ -6,14 +6,14 @@
 #    By: mobouzar <mobouzar@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/09/24 23:01:31 by mobouzar          #+#    #+#              #
-#    Updated: 2019/11/05 20:01:15 by mobouzar         ###   ########.fr        #
+#    Updated: 2019/11/07 17:16:03 by mobouzar         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 FLAGS = -Wall -Werror -Wextra
 NAME = mobouzar.filler
 OBJECTS = srcs/create_heat_map.o srcs/get_player_info.o srcs/get_position.o \
-			srcs/trapping_enemy.o srcs/count_score.o srcs/main.o
+			srcs/count_score.o srcs/main.o
 LIBFT = libft/libft.a
 
 all : $(NAME)

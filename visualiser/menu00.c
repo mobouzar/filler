@@ -6,11 +6,11 @@
 /*   By: mobouzar <mobouzar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/05 15:38:55 by mobouzar          #+#    #+#             */
-/*   Updated: 2019/11/05 18:08:35 by mobouzar         ###   ########.fr       */
+/*   Updated: 2019/11/07 22:00:58 by mobouzar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "visualiser.h"
+#include "../inc/visualiser.h"
 
 void	menu00_helper(t_visu v)
 {

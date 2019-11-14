@@ -6,14 +6,14 @@
 /*   By: mobouzar <mobouzar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/24 20:21:09 by mobouzar          #+#    #+#             */
-/*   Updated: 2019/11/05 19:03:53 by mobouzar         ###   ########.fr       */
+/*   Updated: 2019/11/07 22:01:09 by mobouzar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef VISUALISER_H
 # define VISUALISER_H
 
-# include "../inc/filler.h"
+# include "filler.h"
 # include <ncurses.h>
 # include <unistd.h>
 

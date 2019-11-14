@@ -6,11 +6,11 @@
 /*   By: mobouzar <mobouzar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/25 19:01:10 by mobouzar          #+#    #+#             */
-/*   Updated: 2019/11/05 19:00:10 by mobouzar         ###   ########.fr       */
+/*   Updated: 2019/11/07 22:00:50 by mobouzar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "visualiser.h"
+#include "../inc/visualiser.h"
 
 void	ft_free(char **splite)
 {

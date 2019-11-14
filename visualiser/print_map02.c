@@ -6,11 +6,11 @@
 /*   By: mobouzar <mobouzar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/05 18:36:06 by mobouzar          #+#    #+#             */
-/*   Updated: 2019/11/05 18:38:24 by mobouzar         ###   ########.fr       */
+/*   Updated: 2019/11/07 22:00:50 by mobouzar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "visualiser.h"
+#include "../inc/visualiser.h"
 
 void	print_obox2(t_visu *v, char *c, int y, int x)
 {

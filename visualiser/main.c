@@ -6,11 +6,11 @@
 /*   By: mobouzar <mobouzar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/19 23:55:56 by mobouzar          #+#    #+#             */
-/*   Updated: 2019/11/05 19:46:19 by mobouzar         ###   ########.fr       */
+/*   Updated: 2019/11/07 22:49:39 by mobouzar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "visualiser.h"
+#include "../inc/visualiser.h"
 
 void	init_visu(t_visu *v)
 {
@@ -68,8 +68,8 @@ void	board_window(t_visu *v)
 	else
 		show_winner(*v, 28, 21);
 	wrefresh(v->bwin);
-	ft_free_visu(v);
 	endwin();
+	ft_free_visu(v);
 }
 
 int		main(void)
